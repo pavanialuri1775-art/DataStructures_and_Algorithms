@@ -11,7 +11,7 @@
 6.Repeat until found or search space ends.'''
 
 #code
-'''arr=list(map(int,input().split()))
+arr=list(map(int,input().split()))
 target=int(input())
 left=0
 right=len(arr)-1
@@ -23,7 +23,7 @@ while left<=right:
     elif arr[mid]<target:
         left=mid+1
     else:
-        right=mid-1'''
+        right=mid-1
         
 #using functions
 def binary_search(arr,target):
