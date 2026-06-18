@@ -16,5 +16,5 @@ def bubblesort(arr):
     return arr
         
 arr = list(map(int,input().split()))
-print(bubblesort(arr))
+print(bubblesort(arr)) 
 
