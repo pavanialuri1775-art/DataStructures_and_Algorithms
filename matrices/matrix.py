@@ -1,7 +1,7 @@
 #Matrix:A matrix is a collection of elements arranged in rows and columns.
 #In python we represent a matrix using list of lists.
 #example
-'''matrix = [
+matrix = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
@@ -52,7 +52,7 @@ matrix = [
 ]
 n=len(matrix)
 for i in range(n):
-    print([i][n-1-i])'''
+    print([i][n-1-i])
     
 #Traversing All Diagonals
 matrix = [
