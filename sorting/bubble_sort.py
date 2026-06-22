@@ -1,4 +1,4 @@
-#Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+#1 Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 #algorithm
 #For every pass:
 '''
