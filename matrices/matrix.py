@@ -1,4 +1,4 @@
-#1 Matrix:A matrix is a collection of elements arranged in rows and columns.
+#1  Matrix:A matrix is a collection of elements arranged in rows and columns.
 #In python we represent a matrix using list of lists.
 #example
 matrix = [
