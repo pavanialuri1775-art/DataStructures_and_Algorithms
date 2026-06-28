@@ -8,7 +8,7 @@
 2.Search the remaining array for a smaller element.
 3.Swap minimum element with current position.'''
 
-#1
+#
 def selection_sort(arr):
     n=len(arr)
     for i in range(n):
