@@ -15,4 +15,4 @@ def binary_search(arr,target):
 arr=list(map(int,input().split()))
 target=int(input())
 result=binary_search(arr,target)
-print(result)
+print(result) 
