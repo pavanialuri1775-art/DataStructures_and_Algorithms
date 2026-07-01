@@ -1,22 +1,18 @@
-#1
- def quick_sort(arr):
-    n = len(arr)
-    if n<=1:
-        return arr
-
-    pivot = arr[n//2]
-    left = []
-    middle=[]
-    right = []
-    for x in arr:
-        if x<pivot:
-            left.append(x)
-        elif x==pivot:
-            middle.append(x)
-
-        else:
-            right.append(x)
-    return quick_sort(left)+middle+quick_sort(right) 
-            
-a = [8,6,4,9,1,2]
-print(quick_sort(
+#1 in-place Quick sort
+def partition(arr,low,high):#low-starting index,high-ending index
+    pivot=arr[high]#last element as pivot
+    i=low-1
+    for j in range(low,high):
+        if arr[j]<=pivot:
+            i+=1
+            arr[i],arr[j]=arr[j],arr[i]
+    arr[i+1],arr[high]=arr[high],arr[i+1]
+    return i+1
+def  quick_sort(arr,low,high):
+    if low<high:
+        pivot=partition(arr,low,high)
+        quick_sort(arr,low,pivot-1)
+        quick_sort(arr,pivot+1,high)
+arr=list(map(int,input().split()))
+quick_sort(arr,0,len(arr)-1)
+print(arr)
