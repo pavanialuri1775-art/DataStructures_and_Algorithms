@@ -1,4 +1,4 @@
-#radixsort:it is a non comparision based sorting algorithm which sort numbers ,digit by digit
+#2 radixsort:it is a non comparision based sorting algorithm which sort numbers ,digit by digit
 def counting_sort(arr,place):
     n=len(arr)
     output=[0]*n
