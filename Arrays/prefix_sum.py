@@ -1,5 +1,4 @@
 #1 prefix_sum:A prefix sum stores the sum of all elements from the beginning up to the current index.
-
 arr=list(map(int,input().split()))
 prefix=[0]*len(arr)
 prefix[0]=arr[0]
