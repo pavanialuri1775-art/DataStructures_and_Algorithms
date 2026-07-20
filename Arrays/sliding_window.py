@@ -14,3 +14,13 @@ for i in range(k,len(s)):
         win_count+=1
     max_count=max(max_count,win_count)
 print(max_count)
+
+#2  maxsum subarray with length k
+arr=[3,-2,5,-1,6,-3,2,7,-5]
+k=6
+win_sum=sum(arr[:k])
+max_sum=win_sum
+for i in range(k,len(arr)):
+    win_sum+=arr[i]-arr[i-k]
+    max_sum=max(win_sum,max_sum)
+print(max_sum)
