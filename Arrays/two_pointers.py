@@ -56,6 +56,26 @@ arr=list(map(int,input().split()))
 target=int(input())
 print(two_pointers(arr,target))
     
+#merge two sorted arrays
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+left=0
+right=0
+res=[]
+while left<len(a) and right<len(b):
+    if a[left]<b[right]:
+        res.append(a[left])
+        left+=1
+    else:
+        res.append(b[right])
+        right+=1
+while left<len(a):
+    res.append(a[left])
+    left+=1
+while right<len(b):
+    res.append(b[right])
+    right+=1
+print(res)
         
         
 
