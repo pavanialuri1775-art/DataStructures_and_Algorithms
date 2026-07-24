@@ -1,0 +1,1 @@
+#stack:linear  data structure which follows  LIFO principle
