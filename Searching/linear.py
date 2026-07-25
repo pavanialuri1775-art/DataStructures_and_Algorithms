@@ -7,8 +7,8 @@
 5.If we reach the end, the element is not present.'''
 
 #implementation
-arr=list(map(int,input().split()))
-target=int(input())
+arr=[23,3,6,1,2]
+target=6
 for i in range(len(arr)):
     if arr[i]==target:
         print("Element found at index",i)#Element found at index 3
