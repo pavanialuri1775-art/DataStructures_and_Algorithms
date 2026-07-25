@@ -1,15 +1,18 @@
-def hasTripletSum(arr, target):
-    arr.sort()
-    for i in range(len(arr)-2):
-        left=i+1
-        right=len(arr)-1
-        while left<right:
-            pref_sum=arr[i]+arr[left]+arr[right]
-            if pref_sum==target:
-                return True
-            elif pref_sum<target:
-                left+=1
-            else:
-                right-=1
-    return False
+#seives prime number
+def sieve(n): #10
+    prime = [True]*(n+1) #[t,t,t,t,t,t,t,t,t,t,t]
+    prime[0]=prime[1]=False #[f, f , t t f t f t f f f]
+    p=2
+    while p*p <=n: #4
+        if prime[p]:
+            for i in range(p*p, n+1, p):
+                prime[i]=False
+        p+=1 #4
+    res = []
+    for i in range(2, n+1):
+        if prime[i]:
+            res.append(i)
+    return res
+n= int(input())#10
+print(sieve(n))
                 
