@@ -12,7 +12,7 @@ print(stack[-1])
 #isEmpty:check if empty
 print(len(stack)==0)
 
-#using oops
+#1 using oops
 class stack:
     def __init__(self):
         self.stack=[]
