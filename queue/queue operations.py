@@ -12,7 +12,7 @@ print("Front:", queue[0])#Front: 10
 #Dequeue
 print("Removed:", queue.pop(0))#Removed: 10
 
-#Empty Check
+#  Empty Check
 if not queue:
     print("Queue is empty")#Queue: [20, 30]
 else:
