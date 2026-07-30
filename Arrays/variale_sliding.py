@@ -1,4 +1,4 @@
-#variable sliding window:window size varies
+# variable sliding window:window size varies
 def vari_sliding(arr,k):
     left=0
     max_len=0
