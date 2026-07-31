@@ -1,4 +1,4 @@
-#Queue
+#  Queue
 queue=[]
 queue.append(10)
 queue.append(20)
