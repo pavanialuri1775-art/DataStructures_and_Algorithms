@@ -74,3 +74,20 @@ def next_smaller_ele(arr):
     return ans
 arr=list(map(int,input().split()))
 print(next_smaller_ele(arr))
+
+#
+class Solution:
+    def maxLength(self, s):
+        stack=[-1]
+        max_len=0
+        for right in range(len(s)):
+            if s[right]=="(":
+                stack.append(right)
+            else:
+                stack.pop()
+                if not stack:
+                    stack.append(right)
+                else:
+                    max_len=max(max_len,right-stack[-1])
+        return max_len
+                    
