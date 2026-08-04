@@ -86,7 +86,7 @@ for i in range(n):
             count+=1
 print(count)
 
-#time complexity--0(n)
+#  time complexity--0(n)
 s="aababcabc"
 n=len(s)
 left=0
