@@ -15,7 +15,7 @@ for i in range(k,len(s)):
     max_count=max(max_count,win_count)
 print(max_count)
 
-#2  maxsum subarray with length k
+#2 maxsum subarray with length k
 arr=[3,-2,5,-1,6,-3,2,7,-5]
 k=6
 win_sum=sum(arr[:k])
