@@ -11,7 +11,7 @@ if left==0:
 else:
     print(prefix[right]-prefix[left-1])
     
-#Longest subarray sum is k
+# Longest subarray sum is k
 def long_subarr(arr,k):
     pref_sum =0
     res_max = 0
