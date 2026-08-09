@@ -9,7 +9,7 @@ print("Queue:",queue)#Queue: [10, 20, 30]
 #Front
 print("Front:", queue[0])#Front: 10
 
-#Dequeue
+# Dequeue
 print("Removed:", queue.pop(0))#Removed: 10
 
 #  Empty Check
