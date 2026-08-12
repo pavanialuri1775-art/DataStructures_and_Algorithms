@@ -4,7 +4,7 @@ class ListNode:
         self.next =next
 class Solution:
     def middleNode(self, head):
-        s=[]
+        s = []
         current=head
         while current is not None:
             s.append(current)
