@@ -1,4 +1,4 @@
-#binary search
+# binary search
 #Search for an element in a sorted array using Binary Search.
 def binary_search(arr,target):
     left=0
