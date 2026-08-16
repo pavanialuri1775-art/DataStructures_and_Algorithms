@@ -16,7 +16,7 @@ def count_words(sentence):
 sen="Count the number of words in a string"
 print(count_words(sen))
 
-#second  largest number in an array
+# second  largest number in an array
 def second_largest(arr):
     fst_largest=float('-inf')
     sec_largest=float('-inf')
