@@ -18,7 +18,7 @@ target=int(input())
 result=first_occ(arr,target)
 print(result)
 
-#last occurence
+#   last occurence
 def last_occ(arr,target):
     n=len(arr)
     left=0
