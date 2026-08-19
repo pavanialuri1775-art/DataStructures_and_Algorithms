@@ -1,4 +1,4 @@
-#Palindrome Checker
+#  Palindrome Checker
 def palindrome(num):
     num1=str(num)
     if num>0:
