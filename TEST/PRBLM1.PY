@@ -9,7 +9,7 @@ def palindrome(num):
     return "not valid"
 print(palindrome(21212))
 
-#count words
+# count words
 def count_words(sentence):
     s=sentence.split()
     return len(s)
