@@ -30,7 +30,7 @@ def second_largest(arr):
 arr=list(map(int,input().split()))
 print(second_largest(arr))
 
-#Reverse an Integer
+# Reverse an Integer
 def reverse_digits(num):
     s=str(num)
     new=""
