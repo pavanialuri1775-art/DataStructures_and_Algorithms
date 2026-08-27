@@ -39,7 +39,7 @@ def reverse_digits(num):
     return new
 print(reverse_digits(12345))
 
-#count vowels
+# count vowels
 def vowel_count(word):
     vowels="aeiouAEIOU"
     count=0
