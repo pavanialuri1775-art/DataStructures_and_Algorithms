@@ -49,7 +49,7 @@ def vowel_count(word):
     return  count
 print(vowel_count("apple"))
 
-#Check Prime
+# Check Prime
 def check_prime(n):
     if  n<2:
         print("Not prime")
