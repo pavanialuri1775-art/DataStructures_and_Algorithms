@@ -62,7 +62,7 @@ def check_prime(n):
             print("prime")
 print(check_prime(17))
 
-#Maximum Element
+# Maximum Element
 def max_ele(arr):
     max_element=float("-inf")
     for num in arr:
