@@ -82,7 +82,7 @@ def min_ele(arr):
 arr=[2,1,4,5,6]
 print(min_ele(arr))
 
-#binary search
+# binary search
 def binary_search(arr,target):
     left=0   
     right=len(arr)-1
