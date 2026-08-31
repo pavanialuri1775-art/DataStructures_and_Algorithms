@@ -9,14 +9,14 @@ def palindrome(num):
     return "not valid"
 print(palindrome(21212))
 
-#count words
+#   count words
 def count_words(sentence):
     s=sentence.split()
     return len(s)
 sen="Count the number of words in a string"
 print(count_words(sen))
 
-# second  largest number in an array
+# second  largest number in an arrays
 def second_largest(arr):
     fst_largest=float('-inf')
     sec_largest=float('-inf')
@@ -137,7 +137,7 @@ for key in freq:
         res.append(key)
 print(res)
 
-#Bubble sort
+#   Bubble sort
 def bubble_sort(arr):
     n=len(arr)
     for i in range(n-1):
