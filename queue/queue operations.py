@@ -6,7 +6,7 @@ queue.append(30)
 
 print("Queue:",queue)#Queue: [10, 20, 30]
 
-#Front
+# Front
 print("Front:", queue[0])#Front: 10
 
 # Dequeue

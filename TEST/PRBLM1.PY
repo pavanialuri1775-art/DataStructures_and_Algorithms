@@ -9,7 +9,11 @@ def palindrome(num):
     return "not valid"
 print(palindrome(21212))
 
+<<<<<<< HEAD
 #   count words
+=======
+# count words
+>>>>>>> 249660bf8e56cf5b9df2aa8a12c9ec6da7cb71be
 def count_words(sentence):
     s=sentence.split()
     return len(s)
@@ -30,7 +34,7 @@ def second_largest(arr):
 arr=list(map(int,input().split()))
 print(second_largest(arr))
 
-#Reverse an Integer
+# Reverse an Integer
 def reverse_digits(num):
     s=str(num)
     new=""
@@ -39,7 +43,7 @@ def reverse_digits(num):
     return new
 print(reverse_digits(12345))
 
-#count vowels
+# count vowels
 def vowel_count(word):
     vowels="aeiouAEIOU"
     count=0
@@ -49,7 +53,7 @@ def vowel_count(word):
     return  count
 print(vowel_count("apple"))
 
-#Check Prime
+# Check Prime
 def check_prime(n):
     if  n<2:
         print("Not prime")
@@ -62,7 +66,7 @@ def check_prime(n):
             print("prime")
 print(check_prime(17))
 
-#Maximum Element
+# Maximum Element
 def max_ele(arr):
     max_element=float("-inf")
     for num in arr:
@@ -82,7 +86,7 @@ def min_ele(arr):
 arr=[2,1,4,5,6]
 print(min_ele(arr))
 
-#binary search
+# binary search
 def binary_search(arr,target):
     left=0   
     right=len(arr)-1
@@ -137,7 +141,11 @@ for key in freq:
         res.append(key)
 print(res)
 
+<<<<<<< HEAD
 #   Bubble sort
+=======
+# Bubble sort
+>>>>>>> 249660bf8e56cf5b9df2aa8a12c9ec6da7cb71be
 def bubble_sort(arr):
     n=len(arr)
     for i in range(n-1):
