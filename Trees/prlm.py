@@ -83,6 +83,7 @@ print(*res)
 
 #postorder
 #-->left-->right-->root
+
 class Node:
     def __init__(self, data):
 
@@ -111,3 +112,5 @@ res = []
 
 postorder(root, res)
 print(*res)
+
+
