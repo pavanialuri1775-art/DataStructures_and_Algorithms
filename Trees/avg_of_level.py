@@ -17,11 +17,11 @@ def avg_of_level(root):
             node=q.popleft()
             total+=node.data
         
-        if node.left:
-            q.append(node.left)
+            if node.left:
+                q.append(node.left)
             
-        if node.right:
-            q.append(node.right)
+            if node.right:
+                q.append(node.right)
         res.append(total/level_size)   
     return res  
 root = Node(1)
@@ -33,4 +33,6 @@ root.right.left = Node(6)
 root.right.right = Node(6)
 
 print(avg_of_level(root))
+
+
     
