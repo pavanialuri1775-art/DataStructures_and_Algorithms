@@ -19,6 +19,7 @@ print(root.left.data)
 print(root.right.data)
 
 #preorder traversal    
+
 #-->>root-->left-->right
 
 class Node:
