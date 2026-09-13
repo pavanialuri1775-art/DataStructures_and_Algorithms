@@ -1,4 +1,4 @@
-##ls = [sun, mon, tue, wed, thur, fri, sat]
+#ls = [sun, mon, tue, wed, thur, fri, sat]
 #mon, 2
 #output= wed
 
