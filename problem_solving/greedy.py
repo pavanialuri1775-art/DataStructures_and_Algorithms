@@ -1,4 +1,4 @@
-# greedy search:we choose the option  that looks best at the  current moment.
+#greedy search:we choose the option  that looks best at the  current moment.
 def coin_cnt(amount,coins):
     res=[]
     for coin in coins:
