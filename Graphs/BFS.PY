@@ -6,7 +6,7 @@ graph = {
     3: [1, 2]
 }
 
-#create graph when edges are given
+#   create graph when edges are given
 edges=[
     [0,1],
     [0,2],
