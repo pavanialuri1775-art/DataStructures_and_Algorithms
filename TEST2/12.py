@@ -1,5 +1,5 @@
 #Count vowels and consonants.
-s=input("enter a name")
+s=input("enter a name:")
 vowels="AEIOUaeiou"
 v_count=0
 c_count=0

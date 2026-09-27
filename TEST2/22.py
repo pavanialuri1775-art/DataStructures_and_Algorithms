@@ -14,6 +14,6 @@ class Bankaccount:
 acc=Bankaccount(1000)
 acc.deposit(200)
 acc.withdrawal(1600)
-print(acc.blns_amt())
+acc.blns_amt()
 
         
