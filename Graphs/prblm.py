@@ -5,7 +5,7 @@ edges = [[0,1], [1,2]]
 source = 0
 destination = 2'''
 
-from collections import deque
+'''from collections import deque
 
 class Solution:
     def validPath(self, n, edges, source, destination):
@@ -26,9 +26,22 @@ class Solution:
                     visited.add(neighbor)
                     queue.append(neighbor)
                     
-        return False
+        return False '''        
     
-
+#Write a program that counts the frequency of each unique word inside a text sentence.
+sentence=input()
+words=sentence.split()
+freq={}
+count=0
+for word in words:
+    if word not in freq:
+        freq[word]=1
+    else:
+        freq[word]+=1
+for wrd  in freq:
+    if freq[wrd]==1:
+        count+=1
+print(count)
 
 
                     
