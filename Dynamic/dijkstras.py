@@ -19,7 +19,7 @@ def dijkstra(graph,source):
         distance, node = heapq.heappop(heap)
         if distance>dist[node]:
             continue##skip the entry
-#step5:look at A's neighours
+#   step5:look at A's neighours
         for neighbor,weight in graph[node]:
             new_distance=distance+weight
             if new_distance<dist[neighbor]:
