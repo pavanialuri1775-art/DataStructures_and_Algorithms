@@ -4,11 +4,9 @@
 
 def dijkstra(graph,source):
 #step2:Create our distance table
-    dist={
-        "A":float('inf'),
-        "B":float("inf"),
-        "C":float('inf')
-    }
+    dist={}
+    for node in graph:
+        dist[node]=float('inf')
 #step3:we need to repeatedly pick the smallest distance
 #Data structure that efficiently supports this:Min-heap / priority queue
     dist[source]=0
@@ -20,7 +18,7 @@ def dijkstra(graph,source):
         if distance>dist[node]:
             continue##skip the entry
 #   step5:look at A's neighours
-        for neighbor,weight in graph[node]:
+        for neighbor,weight in graph.get(node,[]):
             new_distance=distance+weight
             if new_distance<dist[neighbor]:
                 dist[neighbor]=new_distance
