@@ -1,6 +1,6 @@
 #  dijstras algorithm:it is used to find shortest path from source node to all other nodes.
 #   step1:represent the graph
-#in python we use adjacency list to represent the graph
+#  in python we use adjacency list to represent the graph
 
 def dijkstra(graph,source):
 #step2:Create our distance table
