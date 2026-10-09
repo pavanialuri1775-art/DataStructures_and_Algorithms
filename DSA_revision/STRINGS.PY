@@ -29,11 +29,11 @@ def reverse_str(s):
         res+=s[i]
     return  res
 s=input()
-print(reverse_str(s)) ''' 
+print(reverse_str(s)) 
 
 #Key of Minimum Value
-'''Problem Statement: Write a Python program to find the key associated with the smallest numerical value in a dictionary.
-Given Input:
+#Problem Statement: Write a Python program to find the key associated with the smallest numerical value in a dictionary.
+#Given Input:
 stock = {"apples": 34, "bananas": 12, "oranges": 57, "grapes": 8, "mangoes": 23}
 min_value=min(stock.values())
 for key,value in stock.items():
