@@ -36,8 +36,9 @@ def two_sum(nums,target):
     n=len(nums)
     for i in range(n-1):
         for j in range(1,n-1):
-            if nums[j]+nums[j-1]==target:
-                return j,j-1
+            if nums[i]+nums[j]==target:
+                return [i,j]
+    return []
 nums=list(map(int,input().split()))
 target=int(input())
 print(two_sum(nums,target))
