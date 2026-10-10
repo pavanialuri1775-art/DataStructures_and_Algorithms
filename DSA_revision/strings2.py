@@ -1,6 +1,6 @@
-#Anagram Check
+#   nagram Check
 #Two strings are anagrams if they contain the same characters with the same frequencies.
-'''def anagram(s1,s2):
+def anagram(s1,s2):
     if len(s1)!=len(s2):
         return False
     count={}
@@ -14,6 +14,7 @@
         if value!=0:
             return False
     return True
+
 s=input()
 r=input()
 print(anagram(r,s))
@@ -29,7 +30,7 @@ def first_non_repeating(s):
             break
     return -1
 s=input()
-print(first_non_repeating(s))'''
+print(first_non_repeating(s))
 
 #Two Sum
 def two_sum(nums,target):
