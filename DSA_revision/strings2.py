@@ -19,7 +19,7 @@ s=input()
 r=input()
 print(anagram(r,s))
 
-#First Non-Repeating Character
+#   First Non-Repeating Character
 def first_non_repeating(s):  
     count={}
     for ch in s:
