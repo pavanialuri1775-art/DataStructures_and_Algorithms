@@ -1,4 +1,4 @@
-#Count Vowels
+# Count Vowels
 def count_vowels(s):
     vowels="AEIOUaeiou"
     count=0
@@ -9,7 +9,7 @@ def count_vowels(s):
 s=input()
 print(count_vowels(s))
 
-#Reverse a String
+# Reverse a String
 def reverse_str(s):
     arr=list(s)
     left=0
