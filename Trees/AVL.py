@@ -1,4 +1,4 @@
-#AVL Tree
+# AVL Tree
 #An AVL tree is a self-balancing Binary Search Tree (BST).
 #Balance Factor = Height of left subtree − Height of right subtree
 #For an AVL tree, the balance factor of every node must be:
