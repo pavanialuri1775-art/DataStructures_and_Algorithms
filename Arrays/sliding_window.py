@@ -109,4 +109,19 @@ for r in range(n):
         ans+=1
         
 print(ans)
+
+#1
+class Solution:
+    def maxSubarraySum(self, arr, k):
+        n=len(arr)
+        left=0
+        win_sum=sum(arr[:k])
+        max_sum=win_sum
+        for right in range(k,n):
+            win_sum+=arr[right]
+            win_sum-=arr[left]
+            left+=1
+            max_sum=max(max_sum,win_sum)
+        return max_sum
+        
         
