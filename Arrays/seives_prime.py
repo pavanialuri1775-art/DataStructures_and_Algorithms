@@ -1,6 +1,6 @@
 # seives prime number
 def sieve(n): #10
-    prime = [True]*(n+1) #[t,t,t,t,t,t,t,t,t,t,t]
+    prime = [True]*(n+1) # [t,t,t,t,t,t,t,t,t,t,t]
     prime[0]=prime[1]=False #[f, f , t t f t f t f f f]
     p=2
     while p*p <=n: #4

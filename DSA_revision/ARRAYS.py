@@ -11,7 +11,7 @@ print(max_ele(arr))
 #time complexity--O(n)
 #Space complexity--O(1)
 
-#second largest
+# second largest
 def sec_max(arr):
     fst_max=float('-inf')
     sec_max=float('-inf')
