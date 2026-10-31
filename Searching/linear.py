@@ -1,4 +1,4 @@
-#Linear Search means searching element one by one until target element is found
+# Linear Search means searching element one by one until target element is found
 #Algorithm
 '''1.Start from the first element.
 2.Compare current element with the target.
