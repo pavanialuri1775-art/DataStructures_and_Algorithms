@@ -29,7 +29,7 @@ print(sec_max(arr))
 #time complexity--O(n)
 #Space complexity--O(1)
 
-#Reverse an Array
+# Reverse an Array
 def reverse_arr(arr):
     new_lst=[]
     for i in range(len(arr)-1,-1,-1):
