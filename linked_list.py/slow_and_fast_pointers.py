@@ -22,7 +22,7 @@ def middleNode(head):
 result = middleNode(n1)
 print(result.val)
 
-#Cycle detection
+# cycle detection
 class Node:
     def __init__(self,val):
         self.val=val
