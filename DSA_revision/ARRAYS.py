@@ -1,4 +1,4 @@
-#Find the maximum element without using max().
+# Find the maximum element without using max().
 #arr = [7, 2, 9, 4, 1, 8]
 def max_ele(arr):
     maximum_element=float('-inf')
